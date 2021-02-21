@@ -1,0 +1,196 @@
+/*Tripoli Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 1em;
+  outline: none;
+}
+
+code,
+kbd,
+samp,
+pre,
+tt,
+var,
+textarea,
+input,
+select,
+listing,
+xmp,
+plaintext {
+  font: inherit;
+  font-size: 1em;
+  white-space: normal;
+}
+
+dfn,
+i,
+cite,
+var,
+address,
+em {
+  font-style: normal;
+}
+
+th,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+a,
+img,
+a img,
+iframe,
+form,
+fieldset,
+abbr,
+acronym,
+object,
+applet,
+table {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td,
+center {
+  text-align: left;
+  vertical-align: top;
+}
+
+body {
+  line-height: 1;
+  background: white;
+  color: black;
+  overflow: hidden;
+  min-width: 75em;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  display: none;
+} /* we don't need a visual hr in layout */
+
+font {
+  color: inherit !important;
+  font: inherit !important;
+} /* disables some nasty font attributes in standard browsers */
+
+marquee {
+  overflow: inherit !important;
+  -moz-binding: none;
+}
+
+blink {
+  text-decoration: none;
+}
+/*Imports*/
+
+/*Title Section*/
+#brand {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 1em;
+  font-weight: bold;
+}
+#author {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 1em;
+  border-bottom: solid;
+}
+/*Nav Section*/
+.nav-link {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 30px;
+  border-right: solid;
+}
+a:hover {
+  border-bottom: solid;
+}
+a:active {
+  border-bottom: hidden;
+}
+.search {
+  margin-top: 1em;
+  text-align: center;
+}
+::placeholder {
+  color: black;
+  font-family: courier;
+  font-size: 20px;
+}
+/*Home Section*/
+#home-section {
+  overflow-y: scroll;
+  height: 100%;
+  max-height: 45em;;
+}
+.post {
+  background-color: #f5f5f5;
+  margin: 10em;
+  margin-top: 5em;
+  min-height: 100em;
+  max-height: 150em;
+  height: 100%;
+  padding: 3em 2em 0em 2em;
+  font-family: courier;
+  margin-bottom: 5em;
+  text-align: center;
+}
+h2 {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.pstyle {
+  font-size: 20px;
+  margin-bottom: 2em;
+  color: #606060;
+  line-height: 30px;
+  margin-right: auto;
+  margin:0em 4em 0em 4em;
+}
+.img {
+  max-width: 747px;
+  width: 100%;
+}
+.imgp {
+  font-family: courier;
+  font-size: 12px;
+  color: #686868;
+  text-align: right;
+  margin-right: 25em;
+}
+.emoji {
+  width: 35px; 
+  height: 35px;
+}
+.hide {
+  display: none;
+}
