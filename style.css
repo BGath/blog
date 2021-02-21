@@ -79,7 +79,7 @@ body {
   color: black;
   max-height: 2000px;
   height: 100%;
-  min-width: 75em;
+  min-width: 50em;
 }
 
 q {
@@ -120,6 +120,12 @@ blink {
   padding-top: 1em;
   font-weight: bold;
 }
+#author {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 1em;
+  border-bottom: solid;
+}
 /*Nav Section*/
 .nav-link {
   display: inline-block;
@@ -137,6 +143,7 @@ a:active {
 }
 /*About*/
 #about-section {
+  overflow-y: auto;
   font-family: courier;
   max-height: 2000px;
   height: 100%;
@@ -145,11 +152,11 @@ a:active {
 #post {
   background-color: #f5f5f5;
   margin: 10em;
-  margin-bottom: 0em;
   margin-top: 5em;
-  max-height: 1000px;
+  max-height: 400px;
+  height: 95%;
   padding: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 0em;
 }
 h3 {
   font-size: 60px;
@@ -168,27 +175,9 @@ h4 {
 ol {
   margin-left: 5em;
 }
-.authorstyle {
-  font-family: courier; 
-  font-size: 20px; 
-  font-weight: bold;
-  margin: auto;
-  align-items: center;
-  margin-left: 0.7em;
-  margin-top: 0.5em;
-  text-decoration: none;
-}
-.authorimg {
-  width: 100px; 
-  height: 100px;  
-  border-radius: 100%;
-  margin: auto;
-  align-items: center;
-  display: inline-block;
-}
-.authorlist {
-  display: inline-block;
-  margin: 2em 2em 2em auto;
+.emoji {
+  width: 35px; 
+  height: 35px;
 }
 /*End Bar
 .endbar {
@@ -198,4 +187,5 @@ ol {
   text-align: right;
   color: #808080;
   margin-top: em;
-}*/
+}
+*/
